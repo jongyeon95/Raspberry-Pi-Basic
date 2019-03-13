@@ -1,0 +1,14 @@
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+--Get the latest version
+
+sudo apt-get install -y nodejs
+--install node.js
+
+mkdir nodejs
+cd nodejs
+npm init
+
+--nodejs is just floder name
+--npm init is that enter the default settings required for your project
+

@@ -1,0 +1,20 @@
+npm install express
+-- install express
+
+------------------------------------
+var express = require('express')
+var app = express()
+port = 3000
+
+app.locals.pretty = true
+app.listen(port, () => {
+  console.log("Server has been started")
+})
+------------------------------------
+--basic code
+--127.0.0.1:3000 Open server on 3000 port
+
+
+node index.js
+--excute node
+
